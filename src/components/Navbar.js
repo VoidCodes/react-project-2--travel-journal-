@@ -1,9 +1,9 @@
 import React from "react";
 
-function Navbar(props) {
+function Navbar() {
   return (
     <nav className="topNav">
-        <h1>Navbar content</h1>
+        <p className="heading"><span id="icon" class="material-icons-outlined">public</span> my travel journal</p>
     </nav>
   );
 }
