@@ -17,7 +17,7 @@ const countryData = [
         startDate: "10 Dec, 2017",
         endDate: "17 Dec, 2017",
         description: "Namsangol Hanok Village, also known as 'A Village of Traditional Houses in the Namsan Valley', is a Korean village located in the area of Pil-dong neighborhood in Jung-gu, a central district of Seoul, South Korea where hanok (한옥) or Korean traditional houses have been restored to preserve the original atmosphere of the area.",
-        //image: require("./images/namsangol.jpg")
+        image: require("./images/namsangol.jpg")
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ const countryData = [
         startDate: "12 May, 2017",
         endDate: "12 May, 2017",
         description: "The former Changi Hospital is a hospital in Singapore, the oldest hospital in Singapore, and the first hospital in Singapore to be built in the late 19th century.",
-        //image: require("./images/oldChangi.jpg")
+        image: require("./images/oldChangi.jpg")
     }
 ]
 

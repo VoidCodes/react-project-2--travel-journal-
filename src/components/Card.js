@@ -6,7 +6,8 @@ function Card(props) {
       <div className="card-image">
         <img src={props.item.image} alt={props.item.title} />
       </div>
-      {/*<div className="card-content">
+      <br></br>
+      <div className="card-content">
         <h3>{props.item.title}</h3>
         <p>{props.item.description}</p>
         <p>
@@ -16,7 +17,7 @@ function Card(props) {
           <span>{props.item.startDate}</span>
           <span>{props.item.endDate}</span>
         </p>
-      </div>*/}
+      </div>
     </div>
   );
 }

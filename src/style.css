@@ -28,16 +28,20 @@
 }
 
 /* Card */
-/*.card {
+.card {
   width: 100%;
   background: #fff;
   padding: 3rem;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-}*/
+}
 
-/*.card-image {
-  position: absolute;
-  max-width: 126px;
-  max-height: 168px;
-  border-radius: 50px;
-}*/
+img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.card-content {
+  position: relative;
+  top: -5rem;
+}
