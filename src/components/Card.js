@@ -8,15 +8,13 @@ function Card(props) {
       </div>
       <br></br>
       <div className="card-content">
+        <p>
+        <span id="location-logo" class="material-icons-outlined">location_on</span>
+        <span className="location-name">{props.item.location}</span> <a href={props.item.googleMapsUrl}>View on Google Maps
+        </a></p>
         <h3>{props.item.title}</h3>
-        <p>{props.item.description}</p>
-        <p>
-          View on Google Maps: <a href={props.item.googleMapsUrl}>{props.item.title}</a>
-        </p>
-        <p>
-          <span>{props.item.startDate}</span>
-          <span>{props.item.endDate}</span>
-        </p>
+        <p>{props.item.startDate} - {props.item.endDate}</p>  
+        <p className="card-description">{props.item.description}</p>
       </div>
     </div>
   );
