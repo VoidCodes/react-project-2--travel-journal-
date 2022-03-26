@@ -16,7 +16,7 @@ const countryData = [
         googleMapsUrl: "https://www.google.com/maps/place/Namsangol+Hanok+Village,+Seoul/@37.559315,126.9922883,17z/data=!3m1!4b1!4m5!3m4!1s0x357ca2fcfa6a299b:0x79c3be57e1edbdfe!8m2!3d37.559315!4d126.994477",
         startDate: "10 Dec, 2017",
         endDate: "17 Dec, 2017",
-        description: "Namsangol Hanok Village, also known as 'A Village of Traditional Houses in the Namsan Valley', is a Korean village located in the area of Pil-dong neighborhood in Jung-gu, a central district of Seoul, South Korea where hanok (한옥) or Korean traditional houses have been restored to preserve the original atmosphere of the area.",
+        description: "Namsangol Hanok Village, also known as 'A Village of Traditional Houses in the Namsan Valley', is a Korean village located in the area of Pil-dong neighborhood in Jung-gu, a central district of Seoul, South Korea",
         image: require("./images/namsangol.jpg")
     },
     {
